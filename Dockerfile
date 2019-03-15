@@ -1,4 +1,4 @@
-FROM debian
+FROM debian:buster
 
 RUN apt update && apt install --no-install-recommends --yes \
             make \
