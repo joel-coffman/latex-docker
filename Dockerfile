@@ -20,6 +20,7 @@ RUN tlmgr install texliveonfly
 RUN apt remove --purge --yes \
             podbrowser
 RUN apt install --no-install-recommends --yes \
+            git \
             make
 
 RUN rm -rf /var/lib/apt/lists/*
