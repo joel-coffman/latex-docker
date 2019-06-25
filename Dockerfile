@@ -1,6 +1,7 @@
 FROM debian
 
 RUN apt update && apt install --no-install-recommends --yes \
+            git \
             make \
             texlive \
             texlive-latex-extra \
